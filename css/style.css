@@ -83,7 +83,9 @@ h2 {
     top: 0;
     left: 0;
 }
-
+.bg-child img{
+    width: 100%;
+}
 /* BG-index */
 .bg-index {
     background-image: url('../public/element/bg.jpg');

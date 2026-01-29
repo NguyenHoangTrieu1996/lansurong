@@ -4,22 +4,31 @@ function initFireworks() {
 
   const ctx = canvas.getContext("2d");
 
-  function resize() {
+  const gravity = 0.06;
+  const rockets = [];
+  const particles = [];
+
+  const MAX_ROCKETS = 5;
+  const MAX_PARTICLES = 900;
+  const TARGET_FPS = 40;
+  const FRAME_TIME = 1000 / TARGET_FPS;
+
+  let lastTime = 0;
+  let rafId = null;
+  let rocketTimer = null;
+  let running = true;
+
+ function resize() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
   }
   resize();
-  window.addEventListener("resize", resize);
 
-  const gravity = 0.06;
-  const rockets = [];
-  const particles = [];
 
   function randomColor() {
     return `hsl(${Math.random() * 360}, 100%, 60%)`;
   }
 
-  // ==== ROCKET ====
   class Rocket {
     constructor() {
       this.x = Math.random() * canvas.width;
@@ -42,105 +51,100 @@ function initFireworks() {
 
     draw() {
       ctx.fillStyle = this.color;
-      ctx.fillRect(this.x, this.y, 2, 10);
+      ctx.fillRect(this.x, this.y, 2, 8);
     }
   }
 
-  // ==== PARTICLE ====
   class Particle {
-    constructor(x, y, vx, vy, color, shape) {
+    constructor(x, y, vx, vy, color) {
       this.x = x;
       this.y = y;
       this.vx = vx;
       this.vy = vy;
       this.alpha = 1;
       this.color = color;
-      this.shape = shape;
     }
 
     update() {
       this.vy += gravity;
       this.x += this.vx;
       this.y += this.vy;
-      this.alpha -= 0.015;
+      this.alpha -= 0.02;
       return this.alpha > 0;
     }
 
     draw() {
-      ctx.save();
       ctx.globalAlpha = this.alpha;
       ctx.fillStyle = this.color;
-      ctx.shadowBlur = 12;
-      ctx.shadowColor = this.color;
-
-      if (this.shape === "circle") {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, 2, 0, Math.PI * 2);
-        ctx.fill();
-      }
-
-      if (this.shape === "heart") drawHeart(this.x, this.y, 4);
-      if (this.shape === "flower") drawFlower(this.x, this.y, 6);
-      if (this.shape === "butterfly") drawButterfly(this.x, this.y, 5);
-
-      ctx.restore();
+      ctx.fillRect(this.x, this.y, 2, 2);
+      ctx.globalAlpha = 1;
     }
-  }
-
-  function drawHeart(x, y, s) {
-    ctx.beginPath();
-    ctx.moveTo(x, y);
-    ctx.bezierCurveTo(x - s, y - s, x - s * 2, y + s, x, y + s * 2);
-    ctx.bezierCurveTo(x + s * 2, y + s, x + s, y - s, x, y);
-    ctx.fill();
-  }
-
-  function drawFlower(x, y, r) {
-    for (let i = 0; i < 6; i++) {
-      const a = (Math.PI * 2 / 6) * i;
-      ctx.beginPath();
-      ctx.arc(x + Math.cos(a) * r, y + Math.sin(a) * r, 2, 0, Math.PI * 2);
-      ctx.fill();
-    }
-  }
-
-  function drawButterfly(x, y, s) {
-    ctx.beginPath();
-    ctx.ellipse(x - s, y, s, s * 0.6, 0, 0, Math.PI * 2);
-    ctx.ellipse(x + s, y, s, s * 0.6, 0, 0, Math.PI * 2);
-    ctx.fill();
   }
 
   function explode(x, y) {
-    const count = 140;
-    const shapes = ["circle", "heart", "flower", "butterfly"];
-    const shape = shapes[Math.floor(Math.random() * shapes.length)];
-
+    const count = 900;
     for (let i = 0; i < count; i++) {
-      const angle = Math.random() * Math.PI * 2;
-      const speed = Math.random() * 4 + 1;
+      if (particles.length > MAX_PARTICLES) break;
+
+      const a = Math.random() * Math.PI * 2;
+      const s = Math.random() * 3 + 1;
       particles.push(
         new Particle(
           x,
           y,
-          Math.cos(angle) * speed,
-          Math.sin(angle) * speed,
-          randomColor(),
-          shape
+          Math.cos(a) * s,
+          Math.sin(a) * s,
+          randomColor()
         )
       );
     }
   }
 
-  function animate() {
+  function animate(time) {
+    if (!running) return;
+
+    if (time - lastTime < FRAME_TIME) {
+      rafId = requestAnimationFrame(animate);
+      return;
+    }
+    lastTime = time;
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    rockets.forEach((r, i) => (!r.update() ? rockets.splice(i, 1) : r.draw()));
-    particles.forEach((p, i) => (!p.update() ? particles.splice(i, 1) : p.draw()));
+    for (let i = rockets.length - 1; i >= 0; i--) {
+      if (!rockets[i].update()) rockets.splice(i, 1);
+      else rockets[i].draw();
+    }
 
-    requestAnimationFrame(animate);
+    for (let i = particles.length - 1; i >= 0; i--) {
+      if (!particles[i].update()) particles.splice(i, 1);
+      else particles[i].draw();
+    }
+
+    rafId = requestAnimationFrame(animate);
   }
-  animate();
 
-  setInterval(() => rockets.push(new Rocket()), 800);
+  rocketTimer = setInterval(() => {
+    if (rockets.length < MAX_ROCKETS) {
+      rockets.push(new Rocket());
+    }
+  }, 900);
+
+  rafId = requestAnimationFrame(animate);
+
+  // ⏸ Pause khi tab ẩn
+  document.addEventListener("visibilitychange", () => {
+    running = !document.hidden;
+    if (running) rafId = requestAnimationFrame(animate);
+  });
+
+  // 🔥 Cleanup cho SPA
+  return function cleanup() {
+    running = false;
+    cancelAnimationFrame(rafId);
+    clearInterval(rocketTimer);
+    rockets.length = 0;
+    particles.length = 0;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  };
 }
