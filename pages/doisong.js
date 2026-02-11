@@ -31,12 +31,12 @@ window.Pages.doisong = function () {
                 </div>
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/109.jpg" alt="img">
-                    <p class="lang lang-vi">Đồng diễn 108 Lân xác lập Kỷ lục Việt Nam, Quận 5 (cũ), Thành phố Hồ Chí Minh</p>
+                    <p class="lang lang-vi">Đồng diễn 108 Lân xác lập Kỷ lục Việt Nam, <br>Quận 5 (cũ), Thành phố Hồ Chí Minh</p>
                     <p class="lang lang-eng" style="display: none;">Simultaneous performance of 108 Kylins sets a Vietnam Record, in (former) District 5, Ho Chi Minh City</p>
                 </div>
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/110.jpg" alt="img">
-                    <p class="lang lang-vi">Múa rồng trong Lễ hội Rằm tháng Giêng âm lịch</p>
+                    <p class="lang lang-vi">Múa rồng trong Lễ hội Rằm tháng Giêng Âm lịch</p>
                     <p class="lang lang-eng" style="display: none;">Dragon dance at the first lunar month Full moon Festival</p>
                 </div>
                 <div class="content-box">
@@ -56,7 +56,7 @@ window.Pages.doisong = function () {
                 </div>
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/115.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hải Nam Liên Hữu đón kỷ lục con rồng dài 68 mét, năm 2024</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hải Nam Liên Hữu đón kỷ lục <br>con rồng dài 68 mét, năm 2024</p>
                     <p class="lang lang-eng" style="display: none;">Hai Nam Lien Huu Kylin, Lion, and Dragon Troupe receive the record for their 68-m Dragon, in 2024</p>
                 </div>
                 
@@ -79,13 +79,13 @@ window.Pages.doisong = function () {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/121.jpg" alt="img">
-                    <p class="lang lang-vi">Sinh hoạt chuyên đề “Tìm hiểu nghệ thuật múa Lân Chợ Lớn” do Bảo tàng Thành phố Hồ Chí Minh tổ chức, năm 2016.</p>
+                    <p class="lang lang-vi">Sinh hoạt chuyên đề “Tìm hiểu nghệ thuật múa Lân Chợ Lớn” <br>do Bảo tàng Thành phố Hồ Chí Minh tổ chức, năm 2016.</p>
                     <p class="lang lang-eng" style="display: none;">The specialized activity “Exploring the Art of Kylin Dance in Cho Lon organized by Ho Chi Minh City Museum, 2016</p>
                 </div>
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/122.jpg" alt="img">
-                    <p class="lang lang-vi">Một ngày vui chơi, tìm hiểu đoàn Lân Sư Rồng Thắng Nghĩa Đường của các bạn nhỏ công ty Sonadezi</p>
+                    <p class="lang lang-vi">Một ngày vui chơi, tìm hiểu đoàn Lân Sư Rồng <br>Thắng Nghĩa Đường của các bạn nhỏ công ty Sonadezi</p>
                     <p class="lang lang-eng" style="display: none;">A fun day exploring the Thang Nghia Duong Kylin, Lion, and Dragon Troupe by the kids from Sonadezi company</p>
                 </div>
 
@@ -167,7 +167,7 @@ window.Pages.doisong = function () {
                 </div>
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/171.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hải Nam Liên Hữu dự thi “Múa Rồng truyền thống” với con rồng kỷ lục Việt Nam dài 68m tại Giải Lân Sư Rồng Quận 5 mở rộng lần VI, năm 2024</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hải Nam Liên Hữu dự thi <br>“Múa Rồng truyền thống” với con rồng kỷ lục Việt Nam dài 68m tại Giải Lân Sư Rồng Quận 5 mở rộng lần VI, năm 2024</p>
                     <p class="lang lang-eng" style="display: none;">Hai Nam Lien Huu Kylin, Lion, and Dragon Troupe competed in the “Traditional Dragon Dance” with its Vietnam record-breaking 68-m dragon at the 6th Kylin, Lion, and Dragon Open Competition in District 5, 2024</p>
                 </div>
                 <div class="content-box">
@@ -182,7 +182,7 @@ window.Pages.doisong = function () {
                 </div>
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/176.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Phương Tế Đường biểu diễn hạng mục “Lân lên mai hoa thung”, Giải Lân Sư Rồng thành phố Châu Đốc mở rộng lần thứ I năm 2025</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Phương Tế Đường biểu diễn hạng mục <br>“Lân lên mai hoa thung”, Giải Lân Sư Rồng thành phố Châu Đốc mở rộng lần thứ I năm 2025</p>
                     <p class="lang lang-eng" style="display: none;">Phuong Te Duong Kylin, Lion, and Dragon Troupe perform the act “Kylin on mai hoa thung” at the 1st Chau Doc City Kylin, Lion, and Dragon open Competition, in 2025</p>
                 </div>
                 <div class="content-box">
@@ -208,7 +208,7 @@ window.Pages.doisong = function () {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/181.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Thành phố Hồ Chí Minh biểu diễn phần thi “Rồng dạ quang” đoạt huy chương vàng của tại Giải Vô địch các đội mạnh Lân sư rồng toàn quốc lần thứ I năm 2025</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Thành phố Hồ Chí Minh biểu diễn phần thi “Rồng dạ quang” đoạt huy chương vàng của tại Giải Vô địch các đội mạnh Lân Sư Rồng toàn quốc lần thứ I năm 2025</p>
                     <p class="lang lang-eng" style="display: none;">Ho Chi Minh City Kylin, Lion, and Dragon Team performed in the “Luminous Dragon” category and won the gold medal at the 1st National Championship of Strong Kylin, Lion, and Dragon Teams, in 2025</p>
                 </div>
                 <div class="content-box">
@@ -224,7 +224,7 @@ window.Pages.doisong = function () {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/184.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Thành phố Hồ Chí Minh biểu diễn phần thi “Múa Rồng tốc độ” đoạt huy chương vàng của tại Giải Vô địch các đội mạnh Lân sư rồng toàn quốc lần thứ I năm 2025</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Thành phố Hồ Chí Minh biểu diễn phần thi “Múa Rồng tốc độ” đoạt huy chương vàng của tại Giải Vô địch các đội mạnh Lân Sư Rồng toàn quốc lần thứ I năm 2025</p>
                     <p class="lang lang-eng" style="display: none;">Ho Chi Minh City Kylin, Lion, and Dragon Team performed in the “Speed Dragon Dance” category and won the gold medal at the 1st National Championship of Strong Kylin, Lion, and Dragon Teams, in 2025</p>
                 </div>
                <div class="content-box">

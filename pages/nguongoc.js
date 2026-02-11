@@ -7,9 +7,9 @@ window.Pages.nguongoc = function (datas) {
             <div class="container-child">
                 <h1 class="lang lang-vi">Truyền Thuyết Về Nghệ Thuật Múa Lân, Sư, Rồng</h1>
                 <h1 class="lang lang-eng" style="display:none;">Legends About The Art Of Kylin, Lion And Dragon Dance</h1>
-                <p class="lang lang-vi">Nghệ thuật múa Lân, Sư, Rồng bắt nguồn từ các truyền thuyết cổ xưa của người Trung Quốc. Những truyền thuyết này có nhiều dị bản, có thể kể ra như sau:</p>
+                <p class="lang lang-vi">Nghệ thuật múa Lân, Sư, Rồng bắt nguồn từ các truyền thuyết cổ xưa của người Trung Quốc. Những truyền thuyết này có nhiều bản khác nhau:</p>
                 <p class="lang lang-vi">- Theo truyền thuyết, khi xưa ở khu vực ven biển xuất hiện quái thú đầu to mắt lồi, miệng rộng lên bờ quấy phá dân làng. Sau khi được ông lão râu tóc bạc phơ chỉ cách, dân làng liền lấy giấy và vải làm thành hình con quái thú rồi trét bột màu lên nhìn vô cùng dữ tợn sau đó đợi khi quái thú đến thì đem ra nhảy múa trong tiếng gõ trống, chiêng... khiến quái thú sợ hãi chạy mất, không còn dám đến quấy phá nữa. Kể từ đó vào các dịp lễ, Tết người dân thường mang hình tượng quái thú ra nhảy múa ăn mừng.</p>
-                <p class="lang lang-vi">- Trong một tài liệu thư tịch được ghi lại về các ngôi chùa Phật giáo ở Lạc Dương, Trung Quốc có mô tả một cuộc diễu hành của bức tượng Phật. Cuộc diễu hành này được một con Sư Tử dẫn đầu, với ý nghĩa xua đuổi linh hồn ma quỷ. Đó cũng là cơ sở hình thành điệu nhảy truyền thống địa này. </p>
+                <p class="lang lang-vi">- Trong một tài liệu thư tịch được ghi lại về các ngôi chùa Phật giáo ở Lạc Dương, Trung Quốc có mô tả một cuộc diễu hành của bức tượng Phật. Cuộc diễu hành này được một con Sư Tử dẫn đầu, với ý nghĩa xua đuổi linh hồn ma quỷ. Đó cũng là cơ sở hình thành điệu nhảy truyền thống này. </p>
                 <p class="lang lang-vi">- Theo dân gian, khi xưa sau khi bị một con rít nấp dưới vẩy bên hông cắn làm bị thương, con Rồng đã tới nhờ một vị thầy thuốc nhân gian giúp đỡ. Để trả ơn vị thầy thuốc, con Rồng đã thể hiện một điệu múa để cầu mưa thuận gió hòa. Từ đó vào dịp lễ hội hay ngày đầu năm mới dân chúng thường biểu diễn múa Rồng để cầu mong sức khỏe, may mắn, hanh thông trong cuộc sống. </p>
                 <p class="lang lang-eng" style="display: none;">The art of Kylin, Lion and Dragon dance originates from ancient Chinese legends. These legends have many variations, which can be listed as follows:</p>
                 <p class="lang lang-eng" style="display: none;">- According to legend, long ago in the coastal areas, a monster with large head, bulging eyes, and wide mouth would come ashore to trouble the villagers. After being guided by an elderly man with white hair and beard, the villagers made figures of monster out of paper and cloth, then painted them with colorful powder so they looked extremely fierce. When the monster appeared, they would take the figures out and dance to the sound of drums and gongs, … scaring the monster away so it no longer dared to cause trouble. Since then, during festivals and Tet, people often bring out monster figures to dance in celebration.</p>
@@ -127,7 +127,7 @@ window.Pages.nguongoc = function (datas) {
                 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/23.jpg" alt="img">
-                    <p class="lang lang-vi">Múa Lân tại nhà bia đền tưởng niệm liệt sĩ Bến Dược - Ảnh: Võ Văn Tường</p>
+                    <p class="lang lang-vi">Múa Lân tại nhà bia Đền tưởng niệm liệt sĩ Bến Dược <br> Ảnh: Võ Văn Tường</p>
                     <p class="lang lang-eng" style="display: none;">Postcard: Kylin Dance at the martyrs’ memorial hall of Ben Duoc monument - Photo: Vo Van Tuong</p>
                 </div>
 
@@ -139,8 +139,8 @@ window.Pages.nguongoc = function (datas) {
 
                   <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/25.jpg" alt="img">
-                    <p class="lang lang-vi">Cuộc sống thường ngày ở Sài Gòn: Múa Sư Tử - Ảnh: Ngọc Tuyết</p>
-                    <p class="lang lang-eng" style="display: none;">Postcard: Everyday life in Saigon: Lion Dance - Photo: Ngoc Tuyet</p>
+                    <p class="lang lang-vi">Cuộc sống thường ngày ở Sài Gòn: Múa Sư Tử <br> Ảnh: Ngọc Tuyết</p>
+                    <p class="lang lang-eng" style="display: none;">Postcard: Everyday life in Saigon: Lion Dance <br> Photo: Ngoc Tuyet</p>
                 </div>
                 
             </div>

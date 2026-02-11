@@ -16,7 +16,7 @@ window.Pages.bieudien = function (datas) {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/88.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Nhơn Nghĩa Đường biểu diễn tiết mục “Lân trèo cây hái lộc”</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Nhơn Nghĩa Đường biểu diễn tiết mục <br>“Lân trèo cây hái lộc”</p>
                     <p class="lang lang-eng" style="display: none;">Nhon Nghia Duong Kylin, Lion, and Dragon Troupe performs the act “Kylin Climbing a pole to pick lucky bud”</p>
                 </div>
 
@@ -28,7 +28,7 @@ window.Pages.bieudien = function (datas) {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/90.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hằng Anh Đường biểu diễn tiết mục “Lân đi cà kheo”</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hằng Anh Đường biểu diễn tiết mục <br>“Lân đi cà kheo”</p>
                     <p class="lang lang-eng" style="display: none;">Hang Anh Duong Kylin, Lion, and Dragon Troupe performs the act “Kylin  Walking on Stilts” </p>
                 </div>
 
@@ -40,13 +40,13 @@ window.Pages.bieudien = function (datas) {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/92.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Long Nhi Đường biểu diễn tiết mục “Tam Lân Lưu Quan Trương”</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Long Nhi Đường biểu diễn tiết mục <br>“Tam Lân Lưu Quan Trương”</p>
                     <p class="lang lang-eng" style="display: none;">Long Nhi Kylin, Lion, and Dragon Troupe performs the act “Tam Lan Luu Quan Truong”</p>
                 </div>
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/93.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hào Dũng Đường biểu diễn tiết mục “Tứ quý Lân”</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hào Dũng Đường biểu diễn tiết mục <br>“Tứ quý Lân”</p>
                     <p class="lang lang-eng" style="display: none;">The Hao Dung Kylin, Lion, and Dragon Troupe perform the act Tu quy Lan”</p>
                 </div>
 
@@ -74,7 +74,7 @@ window.Pages.bieudien = function (datas) {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/96.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Đông Phương biểu diễn múa Sư Tử truyền thống tại Hội quán Nghĩa An, Quận 5 (cũ), những năm 2008</p>
+                    <p class="lang lang-vi">Đoàn Đông Phương biểu diễn múa Sư Tử truyền thống <br>tại Hội quán Nghĩa An, Quận 5 (cũ), năm 2008</p>
                     <p class="lang lang-eng" style="display: none;">TDong Phuong Troupe performed the traditional Lion Dance at Nghia An Club House, (former) District 5, in 2008</p>
                 </div>
 
@@ -105,12 +105,12 @@ window.Pages.bieudien = function (datas) {
                 </div>
                  <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/101.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hào Dũng Đường biểu diễn tiết mục “Song Long”</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Hào Dũng Đường biểu diễn <br>tiết mục “Song Long”</p>
                     <p class="lang lang-eng" style="display: none;">Hao Dung Duong Kylin, Lion, and Dragon Troupe perform the act “Song Long” (Two Dragon)</p>
                 </div>
                  <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/102.jpg" alt="img">
-                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Tinh Anh Đường biểu diễn tiết mục “Quần Long khai hội”, tại lễ khai quang điểm nhãn, năm 2024</p>
+                    <p class="lang lang-vi">Đoàn Lân Sư Rồng Tinh Anh Đường biểu diễn tiết mục <br>“Quần Long khai hội”, tại lễ khai quang điểm nhãn</p>
                     <p class="lang lang-eng" style="display: none;">Tinh Anh Duong Kylin, Lion, and Dragon Troupe perform the act “Quan Long khai hoi” (Many dragons opening festival) at the enlivening ceremony, in 2024</p>
                 </div>
                 

@@ -7,13 +7,13 @@ window.Pages.chetac = function (datas) {
                 <h1 class="lang lang-vi">Các Công Đoạn Chế Tác Lân, Rồng</h1>
                 <h1 class="lang lang-eng" style="display:none;">Stages Of Making Kylin, Dragon Cloaks</h1>
                 <p class="lang lang-vi">Các công đoạn chế tác Lân, Rồng:</p>
-                <p class="lang lang-vi">- -	Chọn vật liệu khung (mây, tre): chọn những sợi tròn, dẻo dai.</p>
+                <p class="lang lang-vi">- Chọn vật liệu khung (mây, tre): chọn những sợi tròn, dẻo dai.</p>
                 <p class="lang lang-vi">- Lên khung chính: uốn tùy theo kích thước đầu Lân, Rồng muốn làm, làm phần khung ngang trước, khung dọc sau.</p>
                 <p class="lang lang-vi">- Lên khung phần mắt, tai, lưỡi.</p>
                 <p class="lang lang-vi">- Công đoạn dán mùng: dùng keo sữa để dán vải mùng lên khung.</p>
                 <p class="lang lang-vi">- Công đoạn dán giấy: dán giấy (bồi) căng, không được chùng trên nền vải mùng, sau đó phơi khô.</p>
                 <p class="lang lang-vi">- Công đoạn vẽ, sơn màu: lựa chọn màu sắc, chi tiết hoa văn, pha màu tươi sáng, rực rỡ rồi vẽ lên đầu Lân, Rồng đã bồi.</p>
-                <p class="lang lang-vi">- -	Công đoạn trang trí, thêm chi tiết: lên lông, mắt, mũi, mày, râu; trang trí cho đầu Lân, đầu Rồng, gắn thêm lục lạc, buộc dây kéo để Lân có thể chớp mắt...</p>
+                <p class="lang lang-vi">- Công đoạn trang trí, thêm chi tiết: lên lông, mắt, mũi, mày, râu; trang trí cho đầu Lân, đầu Rồng, gắn thêm lục lạc, buộc dây kéo để Lân có thể chớp mắt...</p>
                 <p class="lang lang-vi">- Công đoạn may thân, đuôi: lựa chọn vải, chỉ ngũ sắc, chỉ kim tuyến, may thân, đuôi, gắn kim sa, thêu thêm chi tiết cho đuôi Lân, Rồng.</p>
                 <p class="lang lang-eng" style="display: none;">Stages of making Kylin, Dragon cloaks:</p>
                 <p class="lang lang-eng" style="display: none;">- Choose frame material (rattan, bamboo): select round, durable strands.</p>
@@ -106,7 +106,7 @@ window.Pages.chetac = function (datas) {
 
                 <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/43.jpg" alt="img">
-                    <p class="lang lang-vi">Đầu Rồng mặt chimk</p>
+                    <p class="lang lang-vi">Đầu Rồng mặt chim</p>
                     <p class="lang lang-eng" style="display: none;">Bird-shaped Dragon head</p>
                 </div>
 
@@ -200,7 +200,7 @@ window.Pages.chetac = function (datas) {
 
                  <div class="content-box">
                     <img class="w-100" loading="eager" src="./public/images/50.jpg" alt="img">
-                    <p class="lang lang-vi">Lễ khai quang điểm nhãn tại chùa Bà Thiên Hậu, Quận 5 (cũ), Thành phố Hồ Chí Minh</p>
+                    <p class="lang lang-vi">Lễ khai quang điểm nhãn tại chùa Bà Thiên Hậu,<br> Quận 5 (cũ), Thành phố Hồ Chí Minh</p>
                     <p class="lang lang-eng" style="display: none;">Enlivening ceremony at the Thien Hau Lady pagoda, (former) District 5, Ho Chi Minh City</p>
                 </div>
 
